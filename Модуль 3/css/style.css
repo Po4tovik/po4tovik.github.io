@@ -1,0 +1,116 @@
+@import "reset.css";
+
+body {
+    background-color: #f9f9f9;
+}
+
+#wrapper {
+    background-color: #fff;
+    margin: 0 154px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    width: 966px;
+    padding-left: 46px;
+    padding-top: 50px;
+    padding-right: 48px;
+    padding-bottom: 60px;
+}
+
+header ul,
+footer ul {
+    margin-top: 40px;
+    height: 40px;
+}
+
+header ul {
+    background-color: #575656;
+    text-shadow: 1px 1px 1px black;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+footer ul {
+    background-color: #e1e1e1;
+}
+
+header ul li,
+footer ul li {
+    padding-right: 45px;
+    float:left;
+}
+
+header ul li a,
+footer ul li a {
+    line-height: 40px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+footer ul li a {
+    color: #2c2c2c;
+}
+
+header ul li a:hover {
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+    box-shadow: 0 0 1px #838383;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer ul li {
+    float: left;
+}
+
+#container {
+    margin-top: 25px;
+}
+
+#container ul {
+    width: 240px;
+    float: left;
+}
+
+#content {
+    margin-left: 288px;
+}
+
+#container ul li {
+    margin-top: -1px;
+    border: 1px solid #c8c8c8;
+}
+
+#container ul li a{
+    display: block;
+    line-height: 39px;
+    padding-left: 24px;
+    color: #656363;
+    font-size: 14px;
+}
+
+#container ul li a:hover {
+    padding-left: 36px;
+    color: #2c2c2c;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#image {
+    width: 676px;
+    height: 353px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    padding-top: 47px;
+}
+
+p {
+    margin-top: 35px; 
+    margin-left: 24px;
+}
