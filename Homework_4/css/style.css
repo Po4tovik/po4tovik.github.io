@@ -1,0 +1,214 @@
+@import "reset.css";
+
+body {
+    background-image: url(../img/background.png);
+    background-position: 0 -37px;
+}
+
+#wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 2px 7px rgba(0,0,0,1);
+    -moz-box-shadow: 0 2px 7px rgba(0,0,0,1);
+    -webkit-box-shadow: 0 2px 7px rgba(0,0,0,1);
+    -o-box-shadow: 0 2px 7px rgba(0,0,0,1);
+    -ms-box-shadow: 0 2px 7px rgba(0,0,0,1);
+    width: 1000px;
+    position: relative;
+}
+
+header {
+    padding: 0 28px;
+    height: 176px;
+    border-bottom: 1px solid rgb(18,138,167);
+}
+
+#logo {
+    margin-top: 12px;
+    float: left;
+}
+
+header p {
+    display: inline;
+    font: 12px Tahoma;
+    color: #128aa7;
+}
+
+#contacts {
+    float: right;
+    width: 132px;
+    margin-top: 5px;
+}
+
+#countries {
+    clear: right;
+    float: right;
+    margin-top: 35px;
+}
+
+#countries li {
+    float: left;
+    width: 55px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#countries li a {
+    display: block;
+    padding-top: 42px;
+    text-align: center;
+    font: 10px Tahoma;
+    color: #128aa7;
+    text-decoration: underline;
+}
+
+#countries li a:hover {
+    color: red;
+}
+
+#india {
+    background-image: url(../img/india_flag.png);
+}
+
+#nepal {
+    background-image: url(../img/nepal_flag.png);
+}
+
+#tibet {
+    background-image: url(../img/tibet_flag.png);
+}
+
+#butan {
+    background-image: url(../img/butan_flag.png);
+}
+
+#sri-lanka {
+    background-image: url(../img/sri-lanka_flag.png);
+}
+
+#maldives {
+    background-image: url(../img/maldives_flag.png);
+}
+
+nav ul {
+    background: linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
+    background: -moz-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
+    background: -webkit-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
+    background: -o-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
+    background: -ms-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
+    position: relative;
+    z-index: 1;    height: 30px;
+    padding-left: 57px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    -o-box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    -ms-box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    margin-top: -2px;
+}
+
+nav ul li a {
+    float: left;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 58px;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+#container {
+    background: linear-gradient(to right, #edeef0 209px, #c7cacf 210px, #c7cacf 211px, white 212px, white 790px, #c7cacf 791px, #c7cacf 792px, #edeef0 793px);
+    background: -moz-linear-gradient(to right, #edeef0 209px, #c7cacf 210px, #c7cacf 211px, white 212px, white 790px, #c7cacf 791px, #c7cacf 792px, #edeef0 793px);
+    background: -webkit-linear-gradient(to right, #edeef0 209px, #c7cacf 210px, #c7cacf 211px, white 212px, white 790px, #c7cacf 791px, #c7cacf 792px, #edeef0 793px);
+    background: -o-linear-gradient(to right, #edeef0 209px, #c7cacf 210px, #c7cacf 211px, white 212px, white 790px, #c7cacf 791px, #c7cacf 792px, #edeef0 793px);
+    background: -ms-linear-gradient(to right, #edeef0 209px, #c7cacf 210px, #c7cacf 211px, white 212px, white 790px, #c7cacf 791px, #c7cacf 792px, #edeef0 793px);
+    overflow: hidden;
+}
+
+h3 {
+    font-family: Tahoma;
+    color: #424c43;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#container p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Tahoma;
+    color: #424c43;
+}
+
+#info,
+#news {
+    width: 189px;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+}
+
+#content {
+    width: 560px;
+    float:left;
+    padding: 10px;
+}
+
+#submenu1,
+#submenu2,
+#submenu3 {
+    position: absolute;
+    display: none;
+    top: 33px;
+    height: 150px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+    -ms-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+}
+
+#submenu1 {
+    left: 176px;
+}
+
+#submenu2 {
+    left: 326px;
+}
+
+#submenu3 {
+    left: 437px;
+}
+
+#submenu1 li a,
+#submenu2 li a,
+#submenu3 li a {
+    margin-left: -57px;
+    padding-left: 7px;
+    padding-right: 51px;
+}
+
+#menu1:hover > #submenu1 {
+    display: block;
+}
+
+#menu2:hover > #submenu2 {
+    display: block;
+}
+
+#menu3:hover > #submenu3 {
+    display: block;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+    box-shadow: 0 0 1px #838383;
+    -moz-box-shadow: 0 0 1px #838383;
+    -o-box-shadow: 0 0 1px #838383;
+    -webkit-box-shadow: 0 0 1px #838383;
+    -ms-box-shadow: 0 0 1px #838383;
+}
