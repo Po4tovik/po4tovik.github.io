@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 5 Picture</title>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            padding: 0;
+            margin: auto;
+        }
+
+        table {
+            width: 500px;
+            height: 541px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 10px solid black;
+            width: 63px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .black {
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table frame="void">
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+            <td class="yellow" colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td class="red" colspan="4" rowspan="4"></td>
+            <td class="yellow" colspan="2" rowspan="2"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="yellow" rowspan="3"></td>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td colspan="2"></td>
+            <td class="blue" colspan="2" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <td class="black" colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+        </tr>
+    </table>
+</body>
+</html>

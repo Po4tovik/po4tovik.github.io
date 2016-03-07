@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+#wrapper {
+    width: 1215px;
+    height: 1064px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #074f8d;
+    width: 1195px;
+    height: 36px;
+    padding-right:20px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header ul li a {
+    float: right;
+    display: inline-block;
+    color: #60b5ed;
+    line-height: 36px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-left: 5px;
+}
+
+header ul li a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+header ul li a:active,
+.active {
+    background: linear-gradient(to top, #2e7ac4, #50afdc);
+    border: 1px solid #4299d2;
+    padding: 0 9px;
+    height: 34px;
+    color: #fff;
+}
+
+#cadastre {
+    width: 560px;
+    height: 613px;
+    margin-top: 17.5%;
+    margin-left: 29%;
+    position: relative;
+}
+
+#form_header {
+    color: #fff;
+    line-height: 62px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#form {
+    position: absolute;
+    top: 64px;
+    width: 100%;
+    height: 549px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+#facebook {
+    margin-top: 36px;
+}
+
+.text{
+    width: 276px;
+    height: 35px;
+    background-color: #000;
+    margin-top: 13px;
+    border: none;
+    border-bottom: 1px solid #484747;
+    padding-left: 18px;
+}
+
+.text:focus {
+    background: linear-gradient(to top, #1f5384 70%, #1e4b76);
+    border-bottom: 1px solid #689bcc;
+    box-shadow: 0 0 7px rgba(81,138,181,1);
+}
+
+#button {
+    width: 151 px;
+    height: 35px;
+    background: linear-gradient(to top, #2e7ac4, #67c6e6);
+    border: 1px solid #3686ca;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(81,138,181,1);
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#button:active {
+    background: linear-gradient(to top, #67c6e6, #2e7ac4);
+}
