@@ -98,7 +98,7 @@ nav ul {
     background: -o-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
     background: -ms-linear-gradient(to top, rgb(48,48,48), rgb(55,55,55));
     position: relative;
-    z-index: 1;    height: 30px;
+    height: 30px;
     padding-left: 57px;
     border-bottom: 1px solid black;
     box-shadow: 0 2px 4px rgba(0,0,0,0.8);
@@ -111,10 +111,11 @@ nav ul {
 
 nav ul li a {
     float: left;
+    display: inline-block;
     line-height: 30px;
     color: #fff;
     padding-left: 10px;
-    padding-right: 58px;
+    padding-right: 53px;
     font-size: 14px;
     font-family: Tahoma;
     text-decoration: none;
@@ -173,7 +174,7 @@ h3 {
 }
 
 #submenu1 {
-    left: 176px;
+    left: 171px;
 }
 
 #submenu2 {
@@ -181,7 +182,7 @@ h3 {
 }
 
 #submenu3 {
-    left: 437px;
+    left: 440px;
 }
 
 #submenu1 li a,
@@ -189,7 +190,7 @@ h3 {
 #submenu3 li a {
     margin-left: -57px;
     padding-left: 7px;
-    padding-right: 51px;
+    padding-right: 55px;
 }
 
 #menu1:hover > #submenu1 {
